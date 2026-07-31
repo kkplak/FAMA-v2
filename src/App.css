@@ -83,10 +83,10 @@ body {
 .cinematic-wordmark-mask span {
   display: block;
   font-family: var(--font-wordmark);
-  font-size: clamp(3rem, 8.5vw, 6.4rem);
+  font-size: clamp(2.6rem, 7.2vw, 5.2rem);
   font-weight: 500;
   letter-spacing: -0.04em;
-  line-height: 0.95;
+  line-height: 0.92;
   transform: translateY(0.02em);
   white-space: nowrap;
 }
@@ -1327,15 +1327,17 @@ a:focus-visible {
   }
 
   .hero-title {
-    font-size: clamp(3.4rem, 18vw, 4.8rem);
+    font-size: clamp(2.8rem, 15vw, 4rem);
     line-height: 0.9;
     white-space: nowrap;
+    margin-top: 0.2em;
   }
 
   .hero-content {
     bottom: clamp(5.5rem, 16vh, 7.5rem);
     left: 1rem;
     right: 1rem;
+    padding-top: 1.25rem;
   }
 
   .site-section {
@@ -1352,6 +1354,7 @@ a:focus-visible {
 
   .hero-meta {
     top: 6.25rem;
+    z-index: 2;
   }
 
   .hero-meta-left {
