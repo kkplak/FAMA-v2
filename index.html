@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#080807" />
+    <link rel="icon" href="/media/logo-fav2.png" />
+    <link
+      rel="preload"
+      as="image"
+      href="/media/video/hero-poster.jpg"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="video"
+      href="/media/video/hero-showreel.mp4"
+      type="video/mp4"
+    />
+
+    <title>FAMA Film — produkcja filmowa, reklamy i relacje z wydarzeń</title>
+    <meta
+      name="description"
+      content="FAMA Film to studio produkcji filmowej z Gdańska. Tworzymy filmy reklamowe, wizerunkowe, produktowe i relacje z wydarzeń."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="FAMA Film" />
+    <meta property="og:title" content="FAMA Film — historie opowiedziane obrazem" />
+    <meta
+      property="og:description"
+      content="Kompleksowa produkcja filmów reklamowych, wizerunkowych i relacji z wydarzeń."
+    />
+    <meta property="og:image" content="/media/port1.png" />
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-ZFD48MZ0C8"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-ZFD48MZ0C8");
+    </script>
+  </head>
+  <body>
+    <noscript>Ta strona wymaga włączonej obsługi JavaScript.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
+  </body>
+</html>
